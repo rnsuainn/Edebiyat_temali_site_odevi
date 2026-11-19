@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Okuma Günlüğüm'ün edebiyat eserleri, yazarları, türleri ve kişisel yorumları.">
+  <title>Okuma Günlüğüm | İçerikler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Ana navigasyon">
+      <a class="brand" href="index.html">Okuma Günlüğüm</a>
+      <ul class="nav-list">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="icerikler.html" aria-current="page">İçerikler</a></li>
+        <li><a href="hakkinda.html">Hakkında</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading" aria-labelledby="contents-title">
+      <p class="eyebrow">Seçtiğimiz eserler</p>
+      <h1 id="contents-title">Edebiyat İçerikleri</h1>
+      <p>Beş klasik eseri keşfedin, türüne göz atın ve okuma tercihinizi kişisel yorumlarla şekillendirin.</p>
+    </section>
+
+    <section class="search-section" aria-label="Kitap arama">
+      <div class="search-controls">
+        <label for="search-input">Kitap ara</label>
+        <input type="text" id="search-input" name="search" placeholder="Başlık, yazar veya tür ara">
+        <button type="button" id="clear-btn">Temizle</button>
+      </div>
+      <p id="result-count" class="result-count" aria-live="polite">5 eser gösteriliyor</p>
+      <p id="no-results" class="no-results" role="status" hidden>Aradığınız kitap başlığıyla eşleşen bir eser bulunamadı.</p>
+    </section>
+
+    <section class="card-grid" aria-label="Edebiyat eserleri">
+      <article class="card">
+        <div class="card-cover">
+          <img src="assets/1984.jpg" alt="1984 kitabının kapağı">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">1984</h2>
+          <dl class="book-meta">
+            <div><dt>Yazar</dt><dd>George Orwell</dd></div>
+            <div><dt>Tür</dt><dd>Distopya / Politik Kurgu</dd></div>
+          </dl>
+          <p class="book-comment">Bireyin düşünce özgürlüğünün ve dilin sistem eliyle nasıl şekillendirilebileceğini çarpıcı bir atmosferle sorgulatan, her dönemde güncelliğini koruyan sarsıcı bir başyapıt.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-cover">
+          <img src="assets/suc-ve-ceza.jpg" alt="Suç ve Ceza kitabının kapağı">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Suç ve Ceza</h2>
+          <dl class="book-meta">
+            <div><dt>Yazar</dt><dd>Fyodor Dostoyevski</dd></div>
+            <div><dt>Tür</dt><dd>Psikolojik Roman</dd></div>
+          </dl>
+          <p class="book-comment">İnsanın vicdanıyla yüzleşmesini ve ahlaki sınırları aşmanın yarattığı içsel yıkımı karakter derinliğiyle ilmek ilmek işleyen unutulmaz bir klasik.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-cover">
+          <img src="assets/kurk-mantolu-madonna.webp" alt="Kürk Mantolu Madonna kitabının kapağı">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Kürk Mantolu Madonna</h2>
+          <dl class="book-meta">
+            <div><dt>Yazar</dt><dd>Sabahattin Ali</dd></div>
+            <div><dt>Tür</dt><dd>Psikolojik / Aşk Romanı</dd></div>
+          </dl>
+          <p class="book-comment">İçe kapanık bir ruhun derinliklerini, anlaşılmama hissini ve sessiz bir sevginin insan hayatındaki kalıcı izlerini yalın ama çok etkileyici bir dille anlatıyor.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-cover">
+          <img src="assets/simyaci.jpg" alt="Simyacı kitabının kapağı">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Simyacı</h2>
+          <dl class="book-meta">
+            <div><dt>Yazar</dt><dd>Paulo Coelho</dd></div>
+            <div><dt>Tür</dt><dd>Felsefi / Alegorik Roman</dd></div>
+          </dl>
+          <p class="book-comment">Kişisel menkıbesinin peşinden giden bir gencin yolculuğu üzerinden hayallere cesaret etmeyi ve evrenin işaretlerini okumayı hatırlatan ilham verici bir hikâye.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-cover">
+          <img src="assets/saatleri-ayarlama-enstitusu.jpg" alt="Saatleri Ayarlama Enstitüsü kitabının kapağı">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Saatleri Ayarlama Enstitüsü</h2>
+          <dl class="book-meta">
+            <div><dt>Yazar</dt><dd>Ahmet Hamdi Tanpınar</dd></div>
+            <div><dt>Tür</dt><dd>İronik / Modernist Roman</dd></div>
+          </dl>
+          <p class="book-comment">Doğu ile Batı arasında sıkışmış toplum yapısını ve modernleşme sürecindeki bürokratik absürtlükleri ince bir mizah ve eşsiz bir üslupla ele alan benzersiz bir eser.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Okuma Günlüğüm</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
