@@ -42,5 +42,4 @@ TEST_NOTLARI.md  Manuel test senaryoları ve görseller
 
 Öğretim elemanının erişebileceği herkese açık depo bağlantısı:
 
-https://github.com/rnsuainn/Edebiyat_temali_site_
-
+(https://github.com/rnsuainn/Edebiyat_temali_site_odevi)
